@@ -46,7 +46,7 @@ const NavBar = () => {
             float: right;
             padding-top: 10px;
             width:5vw;
-            padding-left:3vw;
+       
            
          
             z-index: 6;
