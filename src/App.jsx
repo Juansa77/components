@@ -6,6 +6,8 @@ import GalleryHorizontal from './assets/components/HorizontalSlider/GalleryHoriz
 import styled from 'styled-components'
 import './App.css'
 import CardGame from './assets/components/CardGame'
+import CardGameHorizontal from './assets/components/CardGameHorizontal'
+
 
 function App() {
 
@@ -16,6 +18,13 @@ function App() {
     <Gallery dataImages={dataImages}/>
 
     <CardGame
+        avatar="sara1.jpg"
+        username="usuario123"
+        image="popheart1.jpg"
+        content="Nombre del juego"
+      />
+
+<CardGameHorizontal
         avatar="sara1.jpg"
         username="usuario123"
         image="popheart1.jpg"

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 
 const CardWrapper = styled.div`
-  width: 20vw;
+  width: 40vw;
   border: 3px solid #8F8C8A;
   border-radius: 8px;
   padding: 16px;
@@ -30,13 +30,16 @@ const CardUsername = styled.span`
 `;
 
 const CardImage = styled.img`
-  width: 100%;
-  height: auto;
+  height:50vh;
+  width:100%;
+  object-fit:cover;
+  
   margin-bottom: 12px;
 `;
 
 const CardContent = styled.p`
   margin-bottom: 12px;
+  position:relative;
   width:100%;
   text-align:left;
   font-size:3vh;
@@ -76,9 +79,10 @@ const CardDescription = styled.p`
   color: #f8f8f8;
   width:100%;
   text-align:left;
+
 `;
 // Componente de tarjeta
-const CardGame = ({ avatar, username, image, content }) => {
+const CardGameHorizontal = ({ avatar, username, image, content }) => {
   return (
     <CardWrapper>
       <CardHeader>
@@ -98,4 +102,4 @@ const CardGame = ({ avatar, username, image, content }) => {
   );
 };
 
-export default CardGame
+export default CardGameHorizontal
