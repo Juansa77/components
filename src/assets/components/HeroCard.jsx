@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const CardContainer = styled.div`
-  width: 90vw;
+  width: 85vw;
   height: 50vh;
   background-color: #141414;
   color: #fff;

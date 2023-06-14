@@ -14,7 +14,7 @@ const CardContainer = styled.div`
   box-shadow: 5px 2px 20px black;
 
   @media (max-width: 768px) {
-    width: 50vw;
+    width: 30vw;
   }
 
   
