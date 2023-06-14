@@ -8,6 +8,8 @@ import './App.css'
 import CardGame from './assets/components/CardGame'
 import CardGameHorizontal from './assets/components/CardGameHorizontal'
 import GameCardNew from './assets/components/CardVertical'
+import HeroCard from './assets/components/HeroCard'
+
 
 
 function App() {
@@ -34,6 +36,13 @@ function App() {
 
 <GameCardNew
         image="popheart1.jpg"
+        title="Nombre del juego"
+        description= "Descripción del juego"
+
+      />
+
+<HeroCard
+        image="ceramic1.jpg"
         title="Nombre del juego"
         description= "Descripción del juego"
 
