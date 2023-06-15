@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const CardContainer = styled.div`
-  width: 85vw;
+  width: 90%;
   height: 50vh;
   background-color: #141414;
   color: #fff;
@@ -12,6 +12,7 @@ const CardContainer = styled.div`
   transition:  0.2s ease-in-out;
   cursor:pointer;
   box-shadow: 5px 2px 20px black;
+  margin-top:10vh;
 
   @media (max-width: 768px) {
     width: 100%;
@@ -19,7 +20,7 @@ const CardContainer = styled.div`
 
   
   &:hover {
-    transform: scale(1.02);
+
     border: 3px solid beige;
     box-shadow: 0 5px 50px black;
   }
@@ -29,9 +30,16 @@ const Image = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 85%;
+  opacity: 80%;
+  overflow:hidden;
+  transition:  0.2s ease-in-out;
   &:hover {
-    opacity: 90%;
+
+    opacity: 100%;
+  
+  transform: scale(1.05);
+  overflow:hidden;
+  
   }
 `;
 

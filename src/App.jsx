@@ -8,10 +8,12 @@ import CardGame from "./assets/components/CardGame";
 import CardGameHorizontal from "./assets/components/CardGameHorizontal";
 import GameCardNew from "./assets/components/CardVertical";
 import HeroCard from "./assets/components/HeroCard";
+import NavbarStyled from "./assets/components/NavBarStyled";
 
 function App() {
   return (
     <div className="App">
+<NavBar/>
       <HeroCard
         image="ceramic1.jpg"
         title="Nombre del juego"
@@ -32,6 +34,11 @@ function App() {
 
 <GameCardNew
         image="sara1.jpg"
+        title="Nombre del juego"
+        description="Descripción del juego"
+      />
+      <GameCardNew
+        image="mural1.jpg"
         title="Nombre del juego"
         description="Descripción del juego"
       />
