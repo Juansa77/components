@@ -9,6 +9,8 @@ import CardGameHorizontal from "./assets/components/CardGameHorizontal";
 import GameCardNew from "./assets/components/CardVertical";
 import HeroCard from "./assets/components/HeroCard";
 import NavbarStyled from "./assets/components/NavBarStyled";
+import CategorySplitter from "./assets/components/CategorySplitter";
+CategorySplitter
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
         title="Nombre del juego"
         description="Descripción del juego"
       />
-
+<CategorySplitter
+title= "Categoría"
+/>
 <div className="gameContainer">
       <GameCardNew
         image="popheart1.jpg"
